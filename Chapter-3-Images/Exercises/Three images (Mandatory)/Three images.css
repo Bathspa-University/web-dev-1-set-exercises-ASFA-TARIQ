@@ -1,0 +1,51 @@
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    background-image: linear-gradient(to right, pink,rgb(170, 245, 255) );
+}
+
+h1{
+    text-align: center;
+    font-weight: 120px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.Text{
+    font-size: 14px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img1{
+    align-items: center;
+    filter: blur(2px);
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+
+}
+
+.img2{
+    filter: sepia(100%);
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+}
+
+.img3{
+    filter: hue-rotate(90deg);
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+}
+
+
+.image-container img:hover {
+        filter: none;
+}
