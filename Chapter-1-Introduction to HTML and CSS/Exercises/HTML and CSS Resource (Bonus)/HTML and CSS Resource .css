@@ -1,0 +1,46 @@
+body{ 
+    background-color: rgb(127, 216, 215);
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+  }  
+  
+
+.center-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+}
+
+.code-box {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.code-box pre {
+  margin: 0;
+}
+
+.heading {
+  background-color: rgb(132, 212, 252);
+  text-align: center;
+  padding: 20px;
+  width: 98%;
+}
+
+h2{
+  color: #035cca;
+}
+
+b{
+  color: #020d83;
+}
+
+
+h3{
+  color: #035cca;
+}

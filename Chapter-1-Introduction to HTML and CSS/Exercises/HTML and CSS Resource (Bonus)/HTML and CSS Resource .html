@@ -3,9 +3,668 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="HTML and CSS Resource .css">
+    <title>HTML & CSS quick-reference guide</title>
+    <!-- chapter 1 - bonus exercise -->
 </head>
 <body>
-    
+    <header>
+        <h1 style="text-align: center;" font-weight="60px">HTML & CSS quick-reference guide</h1>
+    </header>
+
+    <!-- HTML Guide -->
+    <section class="center-box">
+        <h1 style="text-align: center;" class="heading">HTML Guide</h1>
+            <!-- Getting started with HTML -->
+            <div>
+                <h2>Getting started with HTML</h2>
+                    <p>
+                        HTML stands for Hyper Text Markup Language <br>
+                        HTML is the standard markup language for creating Web pages<br>
+                        HTML describes the structure of a Web page<br>
+                        HTML consists of a series of elements<br>
+                        HTML elements tell the browser how to display the content<br>
+                        <br>
+                        <b>Example code:-</b>
+                        <br>
+                        <div class="code-box">
+                        <code> 
+                            <pre>
+                            &lt;!DOCTYPE html&gt; 
+                            &lt;html&gt; 
+                            &lt;head&gt; 
+                            &lt;title&gt;Page Title&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                            
+                            &lt;/body&gt;
+                            &lt;/html&gt;
+                            </pre>
+                        </code>
+                        </div>
+                        <br>
+                        <b>Code explanation:-</b> <br>
+                        The <code>&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document <br>
+                        The <code>&lt;html&gt;</code> element is the root element of an HTML page <br>
+                        The <code>&lt;head&gt;</code> element contains meta information about the HTML page <br>
+                        The <code>&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) <br>
+                        The <code>&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. <br>
+                    </p>
+            </div> 
+
+
+            <!-- HTML Elements -->
+            <div>
+                <h2>HTML elements</h2>
+                <p>
+                    An HTML element is defined by a start tag, some content, and an end tag.
+
+                    <b>Example code:- </b>
+                    <br>
+                    <div class="code-box">
+                    <code>
+                        <pre>
+                            &lt;body&gt;
+                            &lt;h1&gt;Hello World! &lt;/h1&gt;
+                            &lt;p&gt;Computer &lt;/p&gt;
+                            &lt;/body&gt;
+                        </pre>
+                    </code>
+                    </div>
+                    <br>
+                    <b>Code explanation:-</b><br>
+                    The <body> element defines the document's body.It has a start tag &lt;body&gt; and an end tag &lt;/body&gt;. <br>
+                    Then, inside the <body> element there are two other elements: &lt;h1&gt; and &lt;p&gt; <br>
+                    The &lt;h1&gt; element defines a heading. It has a start tag &lt;h1&gt; and an end tag &lt;/h1&gt;<br>
+                    The &lt;p&gt; element defines a paragraph. It has a start tag &lt;p&gt; and an end tag &lt;/p&gt;<br>
+                </p>
+            </div>
+
+            <!-- HTML Atributes -->
+            <div>
+                <h2>Atrributes</h2>
+                <p>
+                    HTML Atributes
+                    <ul>
+                    <li>All HTML elements can have attributes</li>
+                    <li>Attributes provide additional information about elements</li>
+                    <li>Attributes are always specified in the start tag</li>
+                    <li>Attributes usually come in name/value pairs like: name="value"</li>
+                    </ul>
+                </p>
+
+                <!-- src Atribute -->
+                <p>
+                    <h3>src Atrribute</h3>
+                    <br>
+                    The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed<br>
+
+                    <b>Example code:-</b>
+                    <br>
+                    <div class="code-box">
+                    <code>
+                        <pre>
+                            &lt;&gt;img src="img.jpg"&lt;&gt;
+                        </pre>
+                    </code>
+                    </div>
+                    <br>
+                    <b>Code explanation:-</b>
+                    <br>
+                    There are two ways to specify the URL in the src attribute:
+                    1. <b>Absolute URL</b> - Links to an external image that is hosted on another website.<br>
+                    2. <b>Relative URL</b> - Links to an image that is hosted within the website. Here, the URL does not include the domain name.<br>
+                </p>
+
+                <!-- href Atrribute -->
+                <p>
+                    
+                    <h3>href Atrribute</h3>
+                    The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to
+                    
+                        <b>Example code:-</b>
+                        <br>
+                        <div class="code-box">
+                        <code>
+                            <pre>
+                                &lt;a href="https://www.google.com/"&gt;Visit Google&lt;/a&gt;
+                            </pre>
+                        </code>
+                        </div>
+                        <br>
+                        <b>Code explanation:-</b>
+                        <br>
+                        The most important attribute of the <a> element is the href attribute, which indicates the link's destination.The link text is the part that will be visible to the reader.
+                        Clicking on the link text, will send the reader to the specified URL address.<br>
+                </p>
+
+                <!-- width and height Attribute -->
+                <p>
+                    <h3>width and height Attribute</h3>
+                    <b>Example code:-</b>
+                    <br>
+                    <div class="code-box">
+                    <code>
+                        <pre>
+                            &lt;img src="image.jpg" width="400" height="400"&gt;
+                        </pre>
+                    </code>
+                    </div>
+                    <br>
+                    <b>Code explanation:-</b>
+                    <br>
+                    The &lt;img&gt; tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)<br>
+                </p>
+
+                <!-- alt Atribute -->
+                <p>
+                    <h3>alt Atribute</h3>
+                    <b>Example code:-</b>
+                    <br>
+                    <div class="code-box">
+                    <code>
+                        <pre>
+                            &lt;img src="image.jpg" alt="img1"&gt;
+                        </pre>
+                    </code>
+                    </div>
+                    <br>
+                    <b>Code explanation:-</b>
+                    <br>
+                    The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. 
+                    This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.<br>
+                </p>
+
+                <!-- Style Atribute -->
+                <p>
+                    <h3>Style Atribute</h3>
+                    <b>Example code:-</b>
+                    <br>
+                    <div class="code-box">
+                    <code>
+                        <pre>
+                            &lt;p style="color:rgb(255, 0, 225);"&gt; Hello World!&lt;/p&gt;
+                        </pre>
+                    </code>
+                    </div>
+                    <br>
+                    <b>Code explanation:-</b>
+                    <br>
+                    The style attribute is used to add styles to an element, such as color, font, size, and more.
+                </p>
+            </div>
+            
+            <!-- Tags -->
+            <div>
+                <h2>Tags</h2>
+                <!-- Heading tag -->
+                <h3>Heading tag</h3>
+                    <p>
+                        HTML headings are titles or subtitles that you want to display on a webpage.<br>
+                        <b>Example code:-</b> 
+                        <br>
+                        <div class="code-box">
+                        <code>
+                            <pre>
+                            &lt;h1&gt;Heading 1&lt;/h1&gt;
+                            &lt;h2&gt;Heading 2&lt;/h2&gt;
+                            &lt;h3&gt;Heading 3&lt;/h3&gt;
+                            &lt;h4&gt;Heading 4&lt;/h4&gt;
+                            &lt;h5&gt;Heading &lt;/h5&gt;
+                            &lt;h6&gt;Heading 6&lt;/h6&gt;
+                            </pre>
+                        </code>
+                        </div>
+                        <br>
+                        <b>Code explanation:-</b> 
+                        <br>
+                        HTML headings are defined with the <code></code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.
+                        <code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.
+                    </p>
+                    
+                    <!-- Paragraph tag -->
+                    <p>
+                        <h3>Paragraph tag</h3>
+                        A paragraph always starts on a new line, and is usually a block of text.<br>
+                        <b>Eample code:-</b>
+                        <br>
+                        <div class="code-box">
+                        <code>
+                            <pre>
+                                &lt;p&gtWhat a beautiful day.&lt;/p&gt;
+                            </pre>
+                        </code>
+                        </div>
+                        <br>
+                        <b>Code explanation:-</b>
+                        <br>
+                        The HTML <p> element defines a paragraph. A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+                    </p>
+
+                    <!-- Line break tag -->
+                    <p>
+                        <h3>Line break tag</h3>
+                        The &lt;br&gt; tag is an empty tag, which means that it has no end tag<br>
+                        <b>Example code:-</b>
+                        <br>
+                        <div class="code-box">
+                        <code>
+                            <pre>
+                                &lt;p&gt;Apple a day &lt;br&gt; keeps doctor away.&lt;/p&gt;
+                            </pre>
+                        </code>
+                        </div>
+                        <br>
+                        <b>Code explanation:-</b>
+                        <br>
+                        The HTML &lt;br&gt; element defines a line break. Use &lt;br&gt; if you want a line break (a new line) without starting a new paragraph
+                    </p>
+
+                    <!-- div tag -->
+                    <p>
+                        <h3>div tag</h3>
+                        The &lt;div&gt; element is used as a container for other HTML elements.<br>
+                        <b>Example code:-</b>
+                        <br>
+                        <div class="code-box">
+                        <code>
+                            <pre>
+                                &lt;div&gt;
+                                    &lt;p&gt;Pink flower.&lt;/p&gt;
+                                &lt;/div&gt;
+                            </pre>
+                        </code>
+                        </div>
+                    </p>
+            </div>
+
+            <!-- Classes -->
+            <div>
+                <h2>Classes</h2>
+                <p>
+                The HTML class attribute is used to specify a class for an HTML element. HTML elements can share the same class.<br>
+                <b>Example Code</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        &lt;div class="days"&gt;
+                            &lt;h2&gt;Days&lt;/h2&gt;
+                            &lt;p&gt;Sunday &lt;/p&gt;
+                            &lt;p&gt;Monday&lt;/p&gt;
+                            &lt;p&gt;Tuesday&lt;/p&gt;
+                            &lt;p&gt;Wednesday&lt;/p&gt;
+                            &lt;/p&gt;Thursday&lt;/p&gt;
+                            &lt;/p&gt;Friday&lt;/p&gt;
+                            &lt;/p&gt;Saturday&lt;/p&gt;
+                        &lt;/div&gt;
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access 
+                and manipulate elements with the specific class name.In the following example we have one &lt;div&gt; elements with a class 
+                attribute with the value of "days".
+                </p>
+        </div>
+
+        <!-- id -->
+        <div>
+            <h2>id</h2>
+            <p>
+                The HTML id attribute is used to specify a unique id for an HTML element.You cannot have more than one element with the same id in an HTML document.<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        &lt;/h1 id="name" &gt;Sofia&lt;/h1&gt;
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                In the following example we have an &lt;h1&gt; element that points to the id name "name". 
+            </p>
+        </div>
+    </section>
+
+    <!-- CSS Guide -->
+    <section class="center-box">
+        <h1 style="text-align: center;" class="heading">CSS Guide</h1>
+
+        <!-- Getting started with CSS -->
+        <div>
+            <p>
+                <h2>Getting started with CSS</h2>
+                CSS is the language we use to style an HTML document.<br>
+                CSS describes how HTML elements should be displayed.<br> 
+                This tutorial will teach you CSS from basic to advanced.<br>
+            </p>
+        </div>
+
+        <!-- CSS Seclectors -->
+        <div>
+            <h2>CSS Seclectors</h2>
+            <p>
+                A CSS selector selects the HTML element(s) you want to style.
+            </p>
+
+            <!-- element selectors -->
+            <p>
+                <h3>element selectors</h3>
+                The element selector selects HTML elements based on the element name.<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        p {
+                            text-align: center;
+                            color: green;
+                          }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                Here, all &lt;p&gt; elements on the page will be center-aligned, with a green text color
+            </p>
+
+            <!-- class selectors -->
+            <p>
+                <h3>class selectors</h3>
+                The class selector selects HTML elements with a specific class attribute.<br>
+                To select elements with a specific class, write a period (.) character, followed by the class name.<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .text {
+                            text-align: center;
+                            color: orange;
+                          }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                In this example all HTML elements with class="text" will be red and center-aligned and text color as orrange 
+            </p>
+
+            <!-- id selectors -->
+            <p>
+                <h3>id selectors</h3>
+                The id selector uses the id attribute of an HTML element to select a specific element.<br>
+                The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+                To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        #para1 {
+                            text-align: left;
+                            color: red;
+                          }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code example:-</b>
+                <br>
+                The CSS rule below will be applied to the HTML element with id="para1
+            </p>
+
+            <!-- Universal Selector -->
+            <p>
+                <h3>Universal Selector</h3>
+                The universal selector (*) selects all HTML elements on the page.
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        * {
+                            text-align: center;
+                            color: blue;
+                          }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                The CSS rule below will affect every HTML element on the page
+            </p>
+        </div>
+
+        <!-- Padding -->
+        <div>
+            <h2>Padding</h2>
+            <p>
+                Padding is used to create space around an element's content, inside of any defined borders<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        div {
+                            padding: 70px;
+                            border: 1px solid #4CAF50;
+                          }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                Space arround div will be 70px
+            </p>
+        </div>
+
+        <!-- Margin -->
+        <div>
+            <h2>Margin</h2>
+            <p>
+                Margins are used to create space around elements, outside of any defined borders.<br>
+                <b>Eample code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        p{
+                            margin: 40px;
+                        }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                Set margins for all four sides of a &lt;p&gt; element
+            </p>
+        </div>
+
+        <!-- The display Property -->
+        <div>
+            <h2>The display Property</h2>
+            <p>
+                The display property is used to specify how an element is shown on a web page.
+                Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+                The display property is used to change the default display behavior of HTML elements.<br>
+                
+                <h3>Block-level Elements</h3>
+                A block-level element ALWAYS starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+                
+                <h3>Inline Elements</h3>
+                An inline element DOES NOT start on a new line and only takes up as much width as necessary.
+            </p>
+        </div>
+
+        <!-- Color -->
+        <div>
+            <h2>Color</h2>
+
+            <!-- Background Color -->
+            <p>
+                <h3>Background Color</h3>
+                You can set the background color for HTML elements<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        div{
+                            background-color: bisque;
+                        }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                The background-color for all divs will be bisque
+            </p>
+
+            <!-- Text color -->
+            <p>
+                <h3>Text color</h3>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        p{
+                            color: red;
+                        }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                The text color for all paragraphs will be red
+            </p>
+
+            <!-- Border Color -->
+            <p>
+                <h3>Border Color</h3>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .heading{
+                            border: 2px solid blue;
+                        }
+                    </pre>
+                </code>
+                </div>
+                <br>
+                <b>Code explanation:-</b>
+                <br>
+                class "Heading" will have border color as solid blue 
+            </p>
+        </div>
+
+        <!-- position Property -->
+        <div>
+            <h2>position Property</h2>
+            <p>
+                The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+            </p>
+
+            <!-- static Position -->
+            <p>
+                <h3>static Position</h3>
+                HTML elements are positioned static by default.<br>
+                Static positioned elements are not affected by the top, bottom, left, and right properties.<br>
+                An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .position {
+                            position: relative;
+                            padding-left: 30px;
+                          }
+                    </pre>
+                </code>
+                </div>
+            </p>
+
+            <!-- Fixed Position -->
+            <p>
+                <h3>Fixed Position</h3>
+                An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. 
+                The top, right, bottom, and left properties are used to position the element.<br>
+                A fixed element does not leave a gap in the page where it would normally have been located.<br>
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .position {
+                            position: fixed;
+                            margin:30px;
+                            border: 3px solid #73AD21;
+                          }
+                    </p>
+                    </pre>
+                </code>
+                </div>
+
+            <!-- absolute Position  -->
+            <p>
+                <h3>absolute Position</h3>
+                An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+                However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.<br.
+                <b>Example code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .position{
+                            position: absolute;
+                            width: 200px;
+                            height: 100px;
+                        }
+                    </pre>
+                </code>
+                </div>
+
+            </p>
+
+            <!-- Sticky position -->
+            <p>
+                <h3>Sticky position:-</h3>
+                An element with position: sticky; is positioned based on the user's scroll position.
+                A sticky element toggles between relative and fixed, depending on the scroll position. 
+                It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).<br>
+                <b>Exammple code:-</b>
+                <br>
+                <div class="code-box">
+                <code>
+                    <pre>
+                        .position {
+                            position: sticky;
+                            background-color: red;
+                            border: 2px solid #4CAF50;
+                          }
+                    </pre>
+                </code>
+                </div>
+
+            </p>
+        </div>
+    </section>
 </body>
 </html>
