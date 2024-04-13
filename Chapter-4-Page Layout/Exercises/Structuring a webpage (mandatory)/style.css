@@ -59,6 +59,7 @@ main {
 }
 
 .line-up-side-bar {
+    height: 480px;
     background-color: #172d67; 
     padding-right: 20px;
     padding-top: 8px;
@@ -67,17 +68,20 @@ main {
 
 .line-up ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: 40px;
     padding: 0;
+    line-height: 2.5; 
 }
 .images {
     display: flex;
     justify-content: center; 
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
 
-.images img + img {
-    margin-top: 20px;
+.images img {
+    margin: 0 10px; /* Add margins to the images */
 }
 
 footer {

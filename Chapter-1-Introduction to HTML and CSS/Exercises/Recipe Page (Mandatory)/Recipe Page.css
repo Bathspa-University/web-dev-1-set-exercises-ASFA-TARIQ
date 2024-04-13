@@ -1,3 +1,4 @@
+/* for the body of the webpage */
 body{ 
   padding: 50px;
   background-color: bisque;
@@ -6,7 +7,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }  
 
-
+/* to change the design of the image */
 .img {
   border-radius: 50%;
   width: 200px;
@@ -14,6 +15,7 @@ body{
   display: inline-flex;
 }
 
+/* designing the box */
 .container {
   background-color: #ffffff;
   border: 1px solid #ccc;
@@ -22,6 +24,7 @@ body{
   padding: 30px;
 }
 
+/* changing the color of class heading */
 .heading{
   color: rgb(255, 194, 120);
 
