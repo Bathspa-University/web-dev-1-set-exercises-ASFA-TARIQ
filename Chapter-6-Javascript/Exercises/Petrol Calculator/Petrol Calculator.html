@@ -4,31 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Petrol Calculator</title>
+<!-- linking to petrol Calculator.css -->
 <link rel="stylesheet" href="Petrol Calculator.css">
+<!-- Chapter 6 mandatory exercise patrol calculator -->
 </head>
 <body>
-<div class="Calculator-box">
+<!-- Div to create a box right in the center -->
+    <div class="Calculator-box">
+        <!-- <div> div for heading -->
+            <h1 style="text-align: center">Petrol Calculator</h1>
+        </div>
 
-<div>
-    <h1 style="text-align: center">Petrol Calculator</h1>
-</div>
+        <!-- div for cost per liter -->
+        <div class="Cost">
+            <label for="CostPerLiter">Cost per Liter:</label>
+            <input type="number" id="Cost-Per-Liter" value="1.72"><!--   cost on javascript -->
+        </div>
 
-<div class="Cost">
-    <label for="CostPerLiter">Cost per Liter:</label>
-    <input type="number" id="Cost-Per-Liter" value="1.72">
-</div>
+        <!-- div for liters purchased -->
+        <div class="Purchased">
+            <label for="LitersPurchased">Liters Purchased:</label>
+            <input type="number" id="Liters-Purchased" value="0"> <!--  Purchased on javascript -->
+        </div>
 
-<div class="Purchased">
-        <label for="LitersPurchased">Liters Purchased:</label>
-        <input type="number" id="Liters-Purchased" value="0">
-</div>
+        <!-- div to calculate total cost -->
+        <div class="Total">
+            <button onclick="CalculateTotal()">Calculate</button>
+            <p id="Total-Cost"></p>
+        </div>
+    </div>
 
-<div class="Total">
-    <button onclick="CalculateTotal()">Calculate</button>
-    <p id="Total-Cost"></p>
-</div>
-</div>
-
-<script src="Petrol Calculator.js"></script>
+    <!-- linking to petrol calculator.js -->
+    <script src="Petrol Calculator.js"></script>
 </body>
 </html>
