@@ -1,0 +1,52 @@
+/* CSS body */
+body{
+    padding: 30px;
+    margin: 0;
+    background-image: linear-gradient(to right , rgb(255, 0, 43),rgb(149, 60, 194) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Modifying Try Again button */
+button{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #0000ff;
+    border-radius: 5px;
+}
+
+/* Defining Circles */
+.circle {
+    align-items: center;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: #ffffff; 
+    display: inline-block; 
+    margin: 20px; 
+    border: 2px;
+}
+
+/* Giving margin for lives, points and Message */
+#Lives, #Points, #Message {
+    margin-top: 30px;
+}
+
+/* Modifying Footer */
+footer{
+    text-align: center;
+    color: #0d00ff;
+    background-color:#ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}  
+
