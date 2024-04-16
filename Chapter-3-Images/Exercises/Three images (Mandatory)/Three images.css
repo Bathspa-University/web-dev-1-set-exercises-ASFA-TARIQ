@@ -82,11 +82,12 @@ h1{
     border: solid white 5px;
 }
 
-/* image filter none when the user hover */
+/* Image filter none for image-container-1 when the user hover */
 .image-container-1 img:hover {
         filter: none;
 }
 
+/* Image filter none for image-container-2 when the user hover */
 .image-container-2 img:hover {
     filter: none;
 }
