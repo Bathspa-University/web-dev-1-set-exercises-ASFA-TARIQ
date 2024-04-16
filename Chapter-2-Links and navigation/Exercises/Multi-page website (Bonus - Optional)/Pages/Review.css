@@ -1,3 +1,4 @@
+/* body for css */
 body{
     padding-left: 50px;
     padding-top: 30px;
@@ -8,6 +9,7 @@ body{
     flex-direction: column;
 }
 
+/* styling unordered list */
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,10 +18,12 @@ ul {
     background-color: #0d00ff;
 }
   
+/* styling list */
 li {
     float: left;
 }
   
+/* list styling for anchor tag*/
 li a {
     display: block;
     color: white;
@@ -27,35 +31,39 @@ li a {
     text-decoration: none;
 }
   
+/* list styling when it hover */
 li a:hover {
     background-color: #111;
 }
 
+/* class heading */
 .Heading{
     color:#0d00ff
 }  
 
+/* class text */
 .Text{
     color: #ffffff;
 }
 
-
-
+/* link styling */
 link{
     display: none;
 }
 
+/* class checked for stars */
 .checked {
     color: orange;
 }
 
+/* footer styling */
 footer{
     text-align: center;
     color: #0d00ff;
     background-color:#ffffff;
 }  
 
-
+/* class Title */
 .Title{
     color: white; 
     text-align: center;
@@ -64,11 +72,13 @@ footer{
     display: inline-block;
 }
 
+/* class Trailer */
 .Trailer{
     text-decoration: none;
     color: #ffffff;
 }
 
+/* button styling */
 button{
     background-color:#0d00ff;
     padding:10px;
