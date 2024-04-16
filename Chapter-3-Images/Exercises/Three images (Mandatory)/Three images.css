@@ -76,7 +76,7 @@ h1{
 
 /* Styling img6 */
 .img6{
-    filter: contrast(180%);  /*filter opacity*/
+    filter: contrast(180%);  /*filter contrast*/
     transition: filter 0.3s ease;
     border-radius: 20px;
     border: solid white 5px;
