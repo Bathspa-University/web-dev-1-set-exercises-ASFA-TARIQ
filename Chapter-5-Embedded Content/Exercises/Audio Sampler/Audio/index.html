@@ -12,30 +12,36 @@
   </header>
 
   <main>
-    <section>
-      <div class="soundboard">
-        <div class="sample" data-audio="ah-ha.mp3">Ah ha</div>
-        <div class="sample" data-audio="back-of-the-net.mp3">Back of the net</div>
-        <div class="sample" data-audio="bangoutoforder.mp3">Bang out of order</div>
-        <div class="sample" data-audio="dan.mp3">Dan</div>
-        <div class="sample" data-audio="emailoftheevening.mp3">Email of the evening</div>
-        <div class="sample" data-audio="hellopatridge.mp3">Hello Partridge</div>  
-        <div class="sample" data-audio="iatescotchegg.mp3">I ate a scotchegg</div>
-        <div class="sample" data-audio="imconfused">Im confused</div>  
-    </div>
-    </section>
-  </main>
-    <div class="container">
+    <div class="arrangement">
+    <div class="box">
       <header>Text to Speech Converter</header>
       <textarea placeholder="Enter text"></textarea>
-      <button>Convert Text to Speech</button>
+      <button>Convert to Speech</button>
     </div>
 
-    <div class="bars">
-      <button id="prev" disabled>&lt;</button>
-      <button id="next">&gt;</button>
+    <div class="slideshow-container">
+      <div class="Slides">
+          <button class="sample" data-audio="ah-ha.mp3">Ah ha</button>
+          <button class="sample" data-audio="back-of-the-net.mp3">Back of the net</button>
+          <button class="sample" data-audio="bangoutoforder.mp3">Bang out of order</button>
+          <button class="sample" data-audio="dan.mp3">Dan</button>
+      </div>
+      
+      <div class="Slides">
+          <button class="sample" data-audio="emailoftheevening.mp3">Email of the evening</button>
+          <button class="sample" data-audio="hellopartridge.mp3">Hello Partridge</button>
+          <button class="sample" data-audio="iateascotchegg.mp3">I ate a scotchegg</button>
+          <button class="sample" data-audio="imconfused.mp3">Im confused</button>
+      </div>
+      
+      <div>
+        <a class="prev" onclick="plusSlides(-1)"><</a>
+        <a class="next" onclick="plusSlides(1)">></a>
+      </div>
+    </div>
     </div>
 
+  </main>
     <script src="index.js"></script>
 </html>
 </body>

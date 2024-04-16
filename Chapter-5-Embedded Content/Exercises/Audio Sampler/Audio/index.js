@@ -1,38 +1,38 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const samples = document.querySelectorAll('.sample');
+document.addEventListener("DOMContentLoaded", function() {
+  const samples = document.querySelectorAll(".sample");
+
   samples.forEach(sample => {
-      sample.addEventListener('click', function () {
-          const audioSrc = this.getAttribute('data-audio');
-          const audio = new Audio(audioSrc);
-          audio.play();
+      sample.addEventListener("click", function() {
+          const audioSrc = this.getAttribute("data-audio");
+          if (audioSrc) {
+              const audio = new Audio(audioSrc);
+              audio.play();
+          }
       });
   });
 });
 
-document.getElementById('prev').addEventListener('click', function () {
-  if (currentPage > 1) {
-      currentPage--;
-      displaySamples();
-      updatebarsButtons();
-  }
-});
+var slideIndex = 1;
+showSlides(slideIndex);
 
-document.getElementById('next').addEventListener('click', function () {
-  if (currentPage < totalPages) {
-      currentPage++;
-      displaySamples();
-      updatebarsButtons();
-  }
-});
-
-function updatePaginationButtons() {
-  const prevButton = document.getElementById('prev');
-  const nextButton = document.getElementById('next');
-  prevButton.disabled = currentPage === 1;
-  nextButton.disabled = currentPage === totalPages;
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-updatebarsButtons();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("Slides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
 
 const textarea = document.querySelector("textarea");
 const button = document.querySelector("button");
