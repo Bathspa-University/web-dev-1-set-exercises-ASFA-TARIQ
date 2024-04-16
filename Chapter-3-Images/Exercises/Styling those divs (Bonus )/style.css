@@ -1,8 +1,10 @@
+/* body of webpage */
 body {
     margin: 100px auto;
     width: max-content;
 }
 
+/* Styling div 1 */
 .div1 {
     line-height: 100px;
     display: inline-block;
@@ -17,6 +19,7 @@ body {
     border: solid rgb(251, 51, 251);
   } 
   
+/* Styling div 2   */
 .div2{
     line-height: 100px;
     display: inline-block;
@@ -31,6 +34,7 @@ body {
     box-shadow: inset 7px 7px 7px rgb(0, 0, 0);
   }  
 
+/* Styling div 3 */
 .div3 {
     line-height: 100px;
     display: inline-block;
@@ -49,6 +53,7 @@ body {
     0 0 0 30px green ;
   }   
 
+/* Styling div 4 */
 .div4{
     line-height: 100px;
     display: inline-block;
