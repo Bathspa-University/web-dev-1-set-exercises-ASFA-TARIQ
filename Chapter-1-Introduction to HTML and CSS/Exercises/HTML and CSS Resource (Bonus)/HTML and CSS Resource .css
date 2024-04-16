@@ -1,3 +1,4 @@
+/* body of the webpage */
 body{ 
     background-color: rgb(127, 216, 215);
     padding-right: 40px;
@@ -5,7 +6,7 @@ body{
     padding-left: 40px;
   }  
   
-
+/* class center box  */
 .center-box {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -15,16 +16,20 @@ body{
     border-radius: 5px;
 }
 
+/* class code-box */
 .code-box {
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+/* class code-box for the tag pre */
 .code-box pre {
   margin: 0;
 }
 
+/* class heading  */
 .heading {
   background-color: rgb(132, 212, 252);
   text-align: center;
@@ -32,15 +37,17 @@ body{
   width: 98%;
 }
 
+/* Styling heading 2 */
 h2{
   color: #035cca;
 }
 
+/* Styling bold */
 b{
   color: #020d83;
 }
 
-
+/* Styling heading 3 */
 h3{
   color: #035cca;
 }
