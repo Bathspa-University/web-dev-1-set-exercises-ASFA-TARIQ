@@ -1,3 +1,4 @@
+/* For the body of the webpage */
 body{
     padding-left: 40px;
     padding-right: 40px;
@@ -5,47 +6,87 @@ body{
     background-image: linear-gradient(to right, pink,rgb(170, 245, 255) );
 }
 
+/* Styling heading 1 */
 h1{
     text-align: center;
     font-weight: 120px;
     font-family:'Times New Roman', Times, serif
 }
 
+/* class Text */
 .Text{
     font-size: 14px;
     text-align: center;
 }
 
-.image-container {
+/* class image-container */
+.image-container-1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
+.image-container-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+/* Styling img1 */
 .img1{
     align-items: center;
-    filter: blur(2px);
+    filter: blur(2px);  /*filter blur*/
     transition: filter 0.3s ease;
     border-radius: 20px;
     border: solid white 5px;
 
 }
 
+/* Styling img2 */
 .img2{
-    filter: sepia(100%);
+    filter: sepia(100%);  /*filter sepia*/
     transition: filter 0.3s ease;
     border-radius: 20px;
     border: solid white 5px;
 }
 
+/* Styling img3 */
 .img3{
-    filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);  /*filter hue-rotation*/
     transition: filter 0.3s ease;
     border-radius: 20px;
     border: solid white 5px;
 }
 
+/* Styling img4 */
+.img4{
+    filter: grayscale(100%); /*filter grayscale*/
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+}
 
-.image-container img:hover {
+/* Styling img6 */
+.img5{
+    filter: invert(100%); /*filter invert*/
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+}
+
+/* Styling img6 */
+.img6{
+    filter: contrast(180%);  /*filter opacity*/
+    transition: filter 0.3s ease;
+    border-radius: 20px;
+    border: solid white 5px;
+}
+
+/* image filter none when the user hover */
+.image-container-1 img:hover {
         filter: none;
+}
+
+.image-container-2 img:hover {
+    filter: none;
 }
