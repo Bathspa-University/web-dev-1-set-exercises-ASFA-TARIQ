@@ -1,17 +1,22 @@
+/* dody of the webpage */
 body{
     font-family: 'Times New Roman', Times, serif;
     padding: 30px;
     background-color: rgb(247, 146, 238);
 }
 
+/* header having h1 increasing font size  */
 header h1{
     font-size: 50px;
 }
 
+/* Modifying h1 */
 h1{
     text-align: center;
     font-family: serif;
 }
+
+/* ul for navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,21 +25,25 @@ ul {
     background-color: #c642ab;
 }
   
+/* Styling list */
 li {
     float: left;
 }
-  
+ 
+/* anchor tag list */
 li a {
     display: block;
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+ 
+/* anchor tag list when user hovers */
 li a:hover {
     background-color: #ffffff;
 }
 
+ /* class container for the boxes */
 .container {
     background-color: #ffffff;
     border: 1px solid #ccc;
@@ -43,16 +52,19 @@ li a:hover {
     margin: 20px; /* Adjusted margin for spacing */
 }
 
+/* class row */
 .row {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
+/* class column */
 .column {
     flex: 1; /* Take up equal space in the row */
     padding: 10px;
 }
 
+/* Modifying button */
 button {
     background-color: #e96ed1;
     padding: 7px;
@@ -61,6 +73,7 @@ button {
     border-radius: 2px;
 }
 
+/* class done */
 .done {
     background-color: #82bfe5;
     padding: 7px;
@@ -68,6 +81,8 @@ button {
     border: none;
     border-radius: 2px;
 }
+
+/* footer */
 footer{
     text-align: center;
     padding: 3px;
