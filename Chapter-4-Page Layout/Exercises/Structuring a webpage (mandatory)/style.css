@@ -1,39 +1,47 @@
+/* body of the webpage */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* class container */
 .container {
     display: flex;
 }
 
+/* Styling header */
 header {
     background-color: #17072b;
     color: #ffffff;
     padding: 20px 0;
 }
 
+/* header logo */
 header .logo {
     font-weight: bold;
 }
 
+/* nav for ul */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* nav for ul list */
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
+/* nav for ul list anchor tag */
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* main styling */
 main {
     padding-left: 15px;
     padding-top: 8px;
@@ -41,6 +49,7 @@ main {
     padding-right: 0px;
 }
 
+/* class welcome */
 .welcome{
     width: 55%;
     padding-top: 8px;
@@ -49,6 +58,7 @@ main {
     padding-bottom: 8px;
 }
 
+/* class for line-up */
 .line-up { 
     width: 45%;
     padding-top: 8px;
@@ -58,6 +68,7 @@ main {
     color: #ffffff;
 }
 
+/* class line-up-side-bar */
 .line-up-side-bar {
     height: 480px;
     background-color: #172d67; 
@@ -66,12 +77,15 @@ main {
 
 }
 
+/* class line-up list */
 .line-up ul {
     list-style-type: none;
     margin-left: 40px;
     padding: 0;
     line-height: 2.5; 
 }
+
+/* class images */
 .images {
     display: flex;
     justify-content: center; 
@@ -80,10 +94,12 @@ main {
     margin-top: 30px;
 }
 
+/* class imagas img */
 .images img {
     margin: 0 10px; /* Add margins to the images */
 }
 
+/* Styling footer */
 footer {
     background-color: #8c15e9;
     color: #ffffff;
