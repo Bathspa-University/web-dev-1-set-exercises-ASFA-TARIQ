@@ -4,22 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Alan Partridge Soundboard</title>
+  <!-- Chapter 5-bonus exercise Alan Partridge Soundboard -->
 </head>
 <body>
+  <!-- header -->
   <header>
     <h1>Alan Partridge Soundboard</h1> 
   </header>
 
+  <!-- main tag -->
   <main>
+    <!-- div having class arrangement to place text to speech and  soundboard side by side -->
     <div class="arrangement">
+    <!-- div for text to speech -->
+    <!-- div having class box   -->
     <div class="box">
       <header>Text to Speech Converter</header>
       <textarea placeholder="Enter text"></textarea>
       <button>Convert to Speech</button>
     </div>
 
+    <!-- Main div for Alan Partridge Soundboard having class slideshow-container -->
     <div class="slideshow-container">
+      <!-- Sub div having class Slides to place 4 audio sample on one slide -->
       <div class="Slides">
           <button class="sample" data-audio="ah-ha.mp3">Ah ha</button>
           <button class="sample" data-audio="back-of-the-net.mp3">Back of the net</button>
@@ -27,6 +35,7 @@
           <button class="sample" data-audio="dan.mp3">Dan</button>
       </div>
       
+      <!-- Sub div having class Slides to place 4 audio sample on one slide -->
       <div class="Slides">
           <button class="sample" data-audio="emailoftheevening.mp3">Email of the evening</button>
           <button class="sample" data-audio="hellopartridge.mp3">Hello Partridge</button>
@@ -34,6 +43,7 @@
           <button class="sample" data-audio="imconfused.mp3">Im confused</button>
       </div>
       
+      <!-- Sub div for previous and next slide -->
       <div>
         <a class="prev" onclick="plusSlides(-1)"><</a>
         <a class="next" onclick="plusSlides(1)">></a>
@@ -42,6 +52,8 @@
     </div>
 
   </main>
+
+    <!-- linking to javascript file -->
     <script src="index.js"></script>
 </html>
 </body>
